@@ -1,0 +1,234 @@
+#ep_navi {
+    width:1100px;
+    padding-top: 20px;
+    margin-bottom:35px;
+}
+span#ep_header_font{
+    color: #464646;
+    font-family: Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+    font-size:24px;
+    font-weight: 400;
+    font-style: italic;
+}
+#ep_navi ul li{
+    display:inline;
+}
+#ep_main {
+    padding-top: 15px;
+    overflow:hidden;
+    height: 100%;
+    min-height:500px;
+    position: relative;
+}
+.ep_table_highlight {
+    background-color: #f1f1f1;
+}
+/*
+ * FEEDBACK BOXES
+*/
+#ep_error_box,#ep_success_box, #ep_error_box_no_hide{
+    width: 600px;
+    min-height: 20px;
+    padding: 5px 0 5px 15px;
+    background-color: #eef0f1;
+    border: 1px solid #aaa;
+    margin: 0;
+    position: absolute;
+    top:99px;
+}
+#ep_error_box, #ep_error_box_no_hide {
+    color: red;
+}
+#ep_success_box{
+    color: #34b811;
+}
+#ep_error_box_no_hide{
+    position: relative;
+    top:0;
+    margin-bottom: 10px;
+    margin-top: -20px;
+}
+img.ep_preview_small {
+    height:80px;
+    width:57px;
+    display: none;
+}
+#ep_form {
+    position: relative;
+    top:0;
+    left:0;
+    float: left;
+    width: 500px;
+}
+#ep_preview_img{
+    position: relative;
+    float:left;
+    margin-left: 60px;
+    width: 250px;
+    height: 400px;
+}
+#ep_preview_img img{
+    width: 250px;
+    height: 353px;
+    display: none;
+}
+tr.ep_width, tr.ep_height, tr.ep_text_link {
+    display:none;
+}
+#ep_main table {
+    height: 100%;
+    left: 0;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+#ep_main table th {
+    text-align: left;
+    padding-left: 15px;
+}
+#ep_main table td {
+    padding-bottom: 5px;
+    font-size: 11px;
+    padding-left: 15px;
+}
+#ep_loader{
+    width:14px;
+    display: none;
+    position: absolute;
+}
+#ep_main a {
+    text-decoration: none;
+    color: #818181;
+    font-size: 10px;
+}
+#ep_main a:hover {
+    color: #333;
+}
+/*
+ * ALTERNATE VIEW
+*/
+#ep_magazin_container{
+    height: 100%;
+    width: 100%;
+    top: 120px;
+}
+.ep_magazin{
+    position: relative;
+    float: left;
+    width: 353px;
+    height: 198px;
+    margin: 40px 60px 15px 20px;
+}
+.ep_magazin_cover{
+    position: relative;
+    float: left;
+    width: 149px;
+    height: 100%;
+}
+ep_magazin_cover_img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.ep_magazin_cover > img, #ep_preview_img > img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.ep_magazin_cover_1{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ep_magazin_preview{
+    position: absolute;
+    display: none;
+    top: 150px;
+    left: 2px;
+    width: 130px;
+    height: 25px;
+    background: url('../img/preview_col.png') no-repeat top left;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 3px;
+}
+.ep_magazin_bold{
+    font-weight: bold;
+}
+.ep_magazion_info{
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 100%;
+    border: 1px solid #eee;
+}
+.ep_magazin_preview_btn{
+    margin-bottom: 10px;
+}
+/*
+ *Metabox
+*/
+#ep_metabox_overview_content{
+    font-size:12px;
+    height:217px;
+    overflow: auto;
+}
+.ep_meta_single{
+    border-bottom:1px dotted #ccc;
+    padding: 2px 0;
+    margin: 2px 0;
+    line-height: 15px;
+    height: 37px;
+}
+.ep_meta_single_last{
+    border:none;
+    margin: 0;
+    padding-bottom:0;
+}
+.ep_meta_info, .ep_text_link, .ep_meta_info_view{
+    color: #aaa;
+    font-size: 10px;
+}
+.ep_meta_info_title{
+    font-weight: bold;
+    font-size:11px;
+    color: #333;
+}
+#ep_metabox_overview_navi{
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #aaa;
+    height:20px;
+    margin:-6px -6px 0 -6px;
+}
+#ep_metabox_overview_epaper, #ep_metabox_overview_help{
+    width:49%;
+    height:20px;
+    line-height: 23px;
+    float:left;
+    font-weight: bold;
+    padding-top: 0px;
+    text-align: center;
+}
+#ep_metabox_overview_epaper{
+    border-right:1px solid #aaa;
+    padding-right: -2px;
+    color: #D54E21;
+}
+#ep_metabox_overview_help_content{
+    display: none;
+    margin-top: 10px;
+}
+#ep_metabox_overview_help_content ul{
+    list-style: none;
+    padding-left: 20px;
+}
+.add_epaper_button, .add_link_tag, .add_css_class{
+    margin-right: 10px; 
+}
+.ep_meta_info_title{
+    display:none;
+}
+img.add_epaper_button:hover, img.add_link_tag:hover, img.add_css_class:hover {cursor: pointer;}
