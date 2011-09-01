@@ -22,7 +22,7 @@ class EPaper_lib {
 
         $this->pluginSiteUrl = $this->websiteUrl . "page=epaperManager&esid=";
 
-        $this->absPathEpaperDir = get_bloginfo( 'wpurl' ) . "/wp-content/plugins/1000grad-epaper-wp-plugin/";
+        $this->absPathEpaperDir = get_bloginfo( 'wpurl' ) . "/wp-content/plugins/1000grad-epaper-pageflip/";
 
         // pattern from http://phpcentral.com/208-url-validation-in-php.html
         $this->rgUrlPattern = "|^http(s)?://[a-z0-9-]+(.[a-z0-9-]+)*(:[0-9]+)?(/.*)?$|i";
