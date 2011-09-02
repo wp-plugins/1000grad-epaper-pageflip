@@ -181,7 +181,7 @@ ep_magazin_cover_img{
     padding: 2px 0;
     margin: 2px 0;
     line-height: 15px;
-    height: 37px;
+    min-height: 37px;
 }
 .ep_meta_single_last{
     border:none;
@@ -193,9 +193,9 @@ ep_magazin_cover_img{
     font-size: 10px;
 }
 .ep_meta_info_title{
-    font-weight: bold;
-    font-size:11px;
-    color: #333;
+
+    font-size:10px;
+    color: #aaa;
 }
 #ep_metabox_overview_navi{
     background-color: #f1f1f1;
@@ -229,6 +229,6 @@ ep_magazin_cover_img{
     margin-right: 10px; 
 }
 .ep_meta_info_title{
-    display:none;
+   /* display:none;*/
 }
 img.add_epaper_button:hover, img.add_link_tag:hover, img.add_css_class:hover {cursor: pointer;}

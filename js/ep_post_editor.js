@@ -30,6 +30,25 @@ jQuery(document).ready( function() {    // ON DOCUMENT READY
         jQuery('#ep_metabox_overview_epaper').css('color', '#464646');
     });
        
+    // add info bar in meta box to hint user if he uses a non supported editor
+       
+    try{
+         if ( tinyMCE ) console.info("supported editor");
+    }
+    catch(e){
+        jQuery("#ep_meta_box_overview div.inside").append("<div id=\"ep_metabox_editor_info\"></div>");
+        jQuery("#ep_metabox_editor_info").css(
+        {
+            'height': "25px", 
+            "background-color":"#FFFBCC",
+            "font-size":"12px",
+            "width":"100%",
+            "text-align":"center",
+            "line-height":"25px"
+        }
+        ).html("Dieser Editor wird nicht unterstützt");
+    }
+
 
     jQuery('.add_epaper_button').click(function() { //ADD EPAPER TO TINYMCE
                 

@@ -22,6 +22,7 @@ class EPaper_lib {
 
         $this->pluginSiteUrl = $this->websiteUrl . "page=epaperManager&esid=";
 
+        //$this->absPathEpaperDir = get_bloginfo( 'wpurl' ) . "/wp-content/plugins/1000grad-epaper-wp-plugin/";
         $this->absPathEpaperDir = get_bloginfo( 'wpurl' ) . "/wp-content/plugins/1000grad-epaper-pageflip/";
 
         // pattern from http://phpcentral.com/208-url-validation-in-php.html
@@ -583,7 +584,7 @@ class EPaper_lib {
             echo "</div>";
         }
         else {
-            foreach ( $this->EP_db->getAll() as $epaper ) {
+           foreach ( $this->EP_db->getAll() as $epaper ) {
 
                 if ( $ep_count == $ep_count_db ) {
                     echo "<div class=\"ep_meta_single ep_meta_single_last\">";
@@ -593,12 +594,13 @@ class EPaper_lib {
                 }
 
                 echo "<img class=\"add_epaper_button\" src=\"" . $this->absPathEpaperDir . "img/button_add_quick.gif\" alt=\"add_epaper_to_editor\" />";
-                echo "Name: " . $epaper['ep_name'] . "<span class=\"ep_meta_info_title\">" . $epaper['ep_title'] . "</span><br />";
-                echo "<span class=\"ep_meta_info_view\">" . $epaper['ep_view_as'] . "</span>";
+                echo "Name: " . $epaper['ep_name'] . "<br />";
+                echo "<span class=\"ep_meta_info_title\">Titel: " . $epaper['ep_title'] . ", </span> ";
 
                 if ( strlen( $epaper['ep_text_link'] ) != 0 && $epaper['ep_view_as'] == "Link" ) {
-                    echo "<span class=\"ep_meta_info\">, Linktext:</span> <span class=\"ep_text_link\">\"" . $epaper['ep_text_link'] . "\"</span>";
+                    echo "<span class=\"ep_meta_info\">, Linktext:</span> <span class=\"ep_text_link\">\"" . $epaper['ep_text_link'] . "\", </span> ";
                 }
+                echo "<span class=\"ep_meta_info_view\">" . $epaper['ep_view_as'] . "</span>";
                 echo "</div>";
 
                 $ep_count++;
@@ -608,6 +610,8 @@ class EPaper_lib {
 
 
         echo "</div><div id=\"ep_metabox_overview_help_content\">
+                <p>So fügen Sie das ePaper manuell hinzu</p>
+                <p>[epaper title='TITEL_EPAPER']</p>
                 <p>Folgende Elemente sind erlaubt:</p>
                 <ul>
                     <li> <img class=\"add_link_tag\" src=\"" . $this->absPathEpaperDir . "img/button_add_quick.gif\" alt=\"add_link_text_to_epaper\" /> link_text <br /> <span class=\"ep_meta_info\">&Auml;ndern Sie den Link Text zu Ihrem ePaper Link </span></li>
