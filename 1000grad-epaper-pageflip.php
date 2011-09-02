@@ -8,6 +8,9 @@
   Description: The ePaper Plugin helps you to embed Pageflips published with 1000grad ePaper. You integrate your digital magazine with one click  in your blog post - represented in form of a link, image or an animated picture (gif). Further, you can represent pageflip archives to your readers.
  */
 
+
+error_reporting(0);
+
 require_once 'php/class_epaper_db.php';
 require_once 'php/class_epaper_lib.php';
 
