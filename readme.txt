@@ -30,7 +30,8 @@ After installation, there will be a new button in the left hand side navigation 
 
 = I've added my first epaper, what's the next step? =
 
-In the article editor window you should see an overview of all your epapers. By clicking the plus sign, you add an epaper to the editor window. Furthermore you can customize is. Click the "Help" Section in the right hand side metabox to geth further information.
+In the article editor window you should see an overview of all your epapers. By clicking the plus sign, you add an epaper to the editor window. Furthermore you can customize is. Click the "Help" Section in the right hand side metabox to geth further information. IMPORTANT: Currently, this plugin only supports the default Wordpress editor. If you use any other editor, you have to add the ePaper code by manually.
+
 
 == Screenshots ==
 
