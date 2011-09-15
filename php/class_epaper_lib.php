@@ -595,7 +595,7 @@ class EPaper_lib {
 
                 echo "<img class=\"add_epaper_button\" src=\"" . $this->absPathEpaperDir . "img/button_add_quick.gif\" alt=\"add_epaper_to_editor\" />";
                 echo "Name: " . $epaper['ep_name'] . "<br />";
-                echo "<span class=\"ep_meta_info_title\">Titel: " . $epaper['ep_title'] . ", </span> ";
+                echo "<span style=\"font-size:10px; color:#aaa;\">Titel: </span><span class=\"ep_meta_info_title\">" . $epaper['ep_title'] . ", </span> ";
 
                 if ( strlen( $epaper['ep_text_link'] ) != 0 && $epaper['ep_view_as'] == "Link" ) {
                     echo "<span class=\"ep_meta_info\">, Linktext:</span> <span class=\"ep_text_link\">\"" . $epaper['ep_text_link'] . "\", </span> ";
@@ -614,8 +614,8 @@ class EPaper_lib {
                 <p>[epaper title='TITEL_EPAPER']</p>
                 <p>Folgende Elemente sind erlaubt:</p>
                 <ul>
-                    <li> <img class=\"add_link_tag\" src=\"" . $this->absPathEpaperDir . "img/button_add_quick.gif\" alt=\"add_link_text_to_epaper\" /> link_text <br /> <span class=\"ep_meta_info\">&Auml;ndern Sie den Link Text zu Ihrem ePaper Link </span></li>
-                    <li> <img class=\"add_css_class\" src=\"" . $this->absPathEpaperDir . "img/button_add_quick.gif\" alt=\"add_css_class_to_epaper\" /> css_class <br /> <span class=\"ep_meta_info\">H&auml;gen Sie eine CSS Klasse an den HTML an </span></li>
+                    <li> <img class=\"add_link_tag\" src=\"" . $this->absPathEpaperDir . "img/button_add_quick.gif\" alt=\"add_link_text_to_epaper\" /> link_text <br /> <span class=\"ep_meta_info\">Hiermit k&ouml;nnen Sie den voreingestellten Linktext &uuml;berschreiben.</span></li>
+                    <li> <img class=\"add_css_class\" src=\"" . $this->absPathEpaperDir . "img/button_add_quick.gif\" alt=\"add_css_class_to_epaper\" /> css_class <br /> <span class=\"ep_meta_info\">Hiermit k&ouml;nnen Sie eine CSS-Klasse für den Link festlegen.</span></li>
                 </ul>
             </div>";
 
