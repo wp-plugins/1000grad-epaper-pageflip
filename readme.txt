@@ -11,7 +11,7 @@ The ePaper Plugin helps you to embed Pageflips published with 1000grad ePaper.
 
 The ePaper Plugin helps you to embed Pageflips published with 1000grad ePaper. You integrate your digital magazine with one click  in your blog post - represented in form of a link, image or an animated picture (gif). Further, you can represent pageflip archives to your readers.
 
-The plugin is a nice help for customers of 1000grad ePaper. You can publish page flip books on the website <a href="http://www.1000grad-epaper.de">www.1000grad-epaper.de</a>. All ePapers are available as flash or HTML5. The readers will swap automatically when the ePaper is used with a mobile device.
+The plugin is a nice help for customers of 1000grad ePaper. You can publish page flip books on the website <a href="http://www.1000grad-epaper.de/de/wordpress_plugin">http://www.1000grad-epaper.de/de/wordpress_plugin</a>. All ePapers are available as flash or HTML5. The readers will swap automatically when the ePaper is used with a mobile device.
 
 == Installation ==
 
