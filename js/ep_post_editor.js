@@ -50,7 +50,8 @@ jQuery(document).ready( function() {    // ON DOCUMENT READY
     }
 
 
-    jQuery('.add_epaper_button').click(function() { //ADD EPAPER TO TINYMCE
+    //ADD EPAPER TO TINYMCE
+    jQuery('.add_epaper_button').click(function() { 
                 
         var ep_title = "title=\"" + jQuery(this).parent().find('.ep_meta_info_title').html() + "\"";  
             

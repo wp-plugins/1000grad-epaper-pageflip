@@ -2,7 +2,7 @@
 Contributors: 1000grad
 Tags:  epaper, pdf, browse, book, ebook
 Requires at least: 3.0.0
-Tested up to: 3.1
+Tested up to: 3.4
 Stable tag: trunk
 
 The ePaper Plugin helps you to embed Pageflips published with 1000grad ePaper.
