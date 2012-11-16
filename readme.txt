@@ -1,17 +1,17 @@
 === Plugin Name ===
 Contributors: 1000grad
-Tags:  epaper, pdf, browse, book, ebook
+Tags: 
 Requires at least: 3.0.0
 Tested up to: 3.4
 Stable tag: trunk
 
-The ePaper Plugin helps you to embed Pageflips published with 1000grad ePaper.
+This Plugin is deprecated! Please install our new one: 1000°ePaper!
 
 == Description ==
 
-The ePaper Plugin helps you to embed Pageflips published with 1000grad ePaper. You integrate your digital magazine with one click  in your blog post - represented in form of a link, image or an animated picture (gif). Further, you can represent pageflip archives to your readers.
+This Plugin is deprecated! Please install our new one: 1000°ePaper!
 
-The plugin is a nice help for customers of 1000grad ePaper. You can publish page flip books on the website <a href="http://www.1000grad-epaper.de/de/wordpress_plugin">http://www.1000grad-epaper.de/de/wordpress_plugin</a>. All ePapers are available as flash or HTML5. The readers will swap automatically when the ePaper is used with a mobile device.
+for more information please visit <a href="http://wordpress.org/extend/plugins/1000grad-epaper/">1000°ePaper Plugin</a>.
 
 == Installation ==
 
