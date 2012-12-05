@@ -3,7 +3,7 @@
 /*
   Plugin Name: 1000grad ePaper pageflip
   Plugin URI:
-  Version: v1.2
+  Version: v1.2.1
   Author: 1000Grad Digital Leipzig
   Description: This plugin is deprecated! Please install our new one: 1000°ePaper!
  */
