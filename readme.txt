@@ -5,60 +5,56 @@ Requires at least: 3.0.0
 Tested up to: 3.4
 Stable tag: trunk
 
-This Plugin is deprecated! Please install our new one: 1000°ePaper!
+This Plugin is deprecated! Please install our new one: edelpaper!
 
 == Description ==
 
-This Plugin is deprecated! Please install our new one: 1000°ePaper!
+This Plugin is deprecated! Please install our new one: edelpaper!
 
-Dieses Plugin ist veraltet! Bitte installieren sie unser neues: 1000°ePaper!
+Dieses Plugin ist veraltet! Bitte installieren sie unser neues: edelpaper!
 
-for more information please visit <a href="http://wordpress.org/extend/plugins/1000grad-epaper/">1000°ePaper Plugin</a>.
+For more information please visit <a href="http://wordpress.org/extend/plugins/1000grad-epaper/">edelpaper Plugin</a> or <a href="http://support.edelpaper.com/hc/en-us/articles/202133892">www.edelpaper.com</a>.
 
 == Installation ==
 
-This Plugin is deprecated! Please install our new one: 1000°ePaper!
+This Plugin is deprecated! Please install our new one: edelpaper!
 
-Dieses Plugin ist veraltet! Bitte installieren sie unser neues: 1000°ePaper!
+Dieses Plugin ist veraltet! Bitte installieren sie unser neues: edelpaper!
 
-for more information please visit <a href="http://wordpress.org/extend/plugins/1000grad-epaper/">1000°ePaper Plugin</a>.
+For more information please visit <a href="http://wordpress.org/extend/plugins/1000grad-epaper/">edelpaper Plugin</a> or <a href="http://support.edelpaper.com/hc/en-us/articles/202133892">www.edelpaper.com</a>.
 
 == Frequently Asked Questions ==
 
 = How do I get started? =
 
-This Plugin is deprecated! Please install our new one: 1000°ePaper!
+This Plugin is deprecated! Please install our new one: edelpaper!
 
-Dieses Plugin ist veraltet! Bitte installieren sie unser neues: 1000°ePaper!
+Dieses Plugin ist veraltet! Bitte installieren sie unser neues: edelpaper!
 
-for more information please visit <a href="http://wordpress.org/extend/plugins/1000grad-epaper/">1000°ePaper Plugin</a>.
+for more information please visit <a href="http://wordpress.org/extend/plugins/1000grad-epaper/">edelpaper Plugin</a> or <a href="http://support.edelpaper.com/hc/en-us/articles/202133892">www.edelpaper.com</a>.
 
 
 == Screenshots ==
 
-This Plugin is deprecated! Please install our new one: 1000°ePaper!
+This Plugin is deprecated! Please install our new one: edelpaper!
 
-Dieses Plugin ist veraltet! Bitte installieren sie unser neues: 1000°ePaper!
+Dieses Plugin ist veraltet! Bitte installieren sie unser neues: edelpaper!
 
-for more information please visit <a href="http://wordpress.org/extend/plugins/1000grad-epaper/">1000°ePaper Plugin</a>.
+for more information please visit <a href="http://wordpress.org/extend/plugins/1000grad-epaper/">edelpaper Plugin</a> or <a href="http://support.edelpaper.com/hc/en-us/articles/202133892">www.edelpaper.com</a>.
 
 == Changelog ==
 
-This Plugin is deprecated! Please install our new one: 1000°ePaper!
+This Plugin is deprecated! Please install our new one: edelpaper!
 
-Dieses Plugin ist veraltet! Bitte installieren sie unser neues: 1000°ePaper!
+Dieses Plugin ist veraltet! Bitte installieren sie unser neues: edelpaper!
 
-for more information please visit <a href="http://wordpress.org/extend/plugins/1000grad-epaper/">1000°ePaper Plugin</a>.
+for more information please visit <a href="http://wordpress.org/extend/plugins/1000grad-epaper/">edelpaper Plugin</a> or <a href="http://support.edelpaper.com/hc/en-us/articles/202133892">www.edelpaper.com</a>.
 
 
 == License ==
 
-This Plugin is deprecated! Please install our new one: 1000°ePaper!
+This Plugin is deprecated! Please install our new one: edelpaper!
 
-Dieses Plugin ist veraltet! Bitte installieren sie unser neues: 1000°ePaper!
+Dieses Plugin ist veraltet! Bitte installieren sie unser neues: edelpaper!
 
-for more information please visit <a href="http://wordpress.org/extend/plugins/1000grad-epaper/">1000°ePaper Plugin</a>.
-
-This plugin was free for everyone! Since it's released under the GPL, you can use it free of charge on your personal or commercial blog. HOWEVER, shadowbox.js and all it's components should not be reused by the site owners. This code is only shipped with 1000° ePaper. If you would like to use shadowbox on your commercial website, purchase a license at <a href="http://www.shadowbox-js.com/">www.shadowbox-js.com/</a>! It's free for non commercial purposes.
-
-
+for more information please visit <a href="http://wordpress.org/extend/plugins/1000grad-epaper/">edelpaper Plugin</a> or <a href="http://support.edelpaper.com/hc/en-us/articles/202133892">www.edelpaper.com</a>.
